@@ -14,11 +14,9 @@ public class AddInventory extends HttpServlet
 {
 public void doGet(HttpServletRequest request,HttpServletResponse response)
 {
-System.out.println("Adding inventory..............");
 }
 public void doPost(HttpServletRequest request,HttpServletResponse response)
 {
-System.out.println("Adding inventory...............");
 GsonBuilder gsonBuilder=new GsonBuilder();
 Gson gson=gsonBuilder.create();
 try
